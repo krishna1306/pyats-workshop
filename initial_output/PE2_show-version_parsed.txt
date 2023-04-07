@@ -1,0 +1,15 @@
+{
+  "_exclude": [
+    "seconds",
+    "minutes",
+    "hours",
+    "uptime"
+  ],
+  "built_by": "ingunawa",
+  "built_host": "iox-ucs-030",
+  "built_on": "Thu Feb 25 19:33:16 PST 2021",
+  "device_family": "IOS-XRv 9000",
+  "operating_system": "IOSXR",
+  "software_version": "7.3.1",
+  "uptime": "34 minutes"
+}

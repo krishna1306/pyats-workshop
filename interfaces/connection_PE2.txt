@@ -1,0 +1,50 @@
+
+2023-04-07 10:02:53,125: %UNICON-INFO: +++ PE2 logfile interfaces/connection_PE2.txt +++
+
+2023-04-07 10:02:53,126: %UNICON-INFO: +++ Unicon plugin iosxr (unicon.plugins.iosxr) +++
+Password: 
+
+2023-04-07 10:02:53,623: %UNICON-INFO: +++ connection to spawn: ssh -l admin 192.168.122.14, id: 140661820382080 +++
+
+2023-04-07 10:02:53,623: %UNICON-INFO: connection to PE2
+
+
+
+RP/0/RP0/CPU0:PE2#
+
+2023-04-07 10:02:54,068: %UNICON-INFO: +++ initializing handle +++
+
+2023-04-07 10:02:54,178: %UNICON-INFO: +++ PE2 with via 'cli': executing command 'terminal length 0' +++
+terminal length 0
+Fri Apr  7 10:02:53.687 UTC
+RP/0/RP0/CPU0:PE2#
+
+2023-04-07 10:02:54,567: %UNICON-INFO: +++ PE2 with via 'cli': executing command 'terminal width 0' +++
+terminal width 0
+Fri Apr  7 10:02:54.070 UTC
+RP/0/RP0/CPU0:PE2#
+
+2023-04-07 10:08:54,656: %UNICON-INFO: +++ PE2 logfile interfaces/connection_PE2.txt +++
+
+2023-04-07 10:08:54,656: %UNICON-INFO: +++ Unicon plugin iosxr (unicon.plugins.iosxr) +++
+Password: 
+
+2023-04-07 10:08:55,204: %UNICON-INFO: +++ connection to spawn: ssh -l admin 192.168.122.14, id: 139852538824592 +++
+
+2023-04-07 10:08:55,204: %UNICON-INFO: connection to PE2
+
+
+
+RP/0/RP0/CPU0:PE2#
+
+2023-04-07 10:08:55,624: %UNICON-INFO: +++ initializing handle +++
+
+2023-04-07 10:08:55,719: %UNICON-INFO: +++ PE2 with via 'cli': executing command 'terminal length 0' +++
+terminal length 0
+Fri Apr  7 10:08:55.229 UTC
+RP/0/RP0/CPU0:PE2#
+
+2023-04-07 10:08:56,027: %UNICON-INFO: +++ PE2 with via 'cli': executing command 'terminal width 0' +++
+terminal width 0
+Fri Apr  7 10:08:55.532 UTC
+RP/0/RP0/CPU0:PE2#

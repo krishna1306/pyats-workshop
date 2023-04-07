@@ -1,0 +1,262 @@
++++ PE2 with via 'cli': executing command 'show vrf all detail' +++
+show vrf all detail
+Fri Apr  7 10:08:56.349 UTC
+
+VRF oam; RD not set; VPN ID not set
+VRF mode: Regular
+Description not set
+Interfaces:
+  MgmtEth0/RP0/CPU0/0
+Address family IPV4 Unicast
+  No import VPN route-target communities
+  No export VPN route-target communities
+  No import route policy
+  No export route policy
+Address family IPV6 Unicast
+  No import VPN route-target communities
+  No export VPN route-target communities
+  No import route policy
+  No export route policy
+RP/0/RP0/CPU0:PE2#
++++ PE2 with via 'cli': executing command 'show interface detail' +++
+show interface detail
+Fri Apr  7 10:08:56.662 UTC
+Null0 is up, line protocol is up 
+  Interface state transitions: 1
+  Hardware is Null interface
+  Internet address is Unknown
+  MTU 1500 bytes, BW 0 Kbit
+     reliability 255/255, txload Unknown, rxload Unknown
+  Encapsulation Null,  loopback not set,
+  Last link flapped 00:38:04
+  Last input never, output never
+  Last clearing of "show interface" counters never
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 total input drops
+     0 drops for unrecognized upper-level protocol
+     Received 0 broadcast packets, 0 multicast packets
+     0 packets output, 0 bytes, 0 total output drops
+     Output 0 broadcast packets, 0 multicast packets
+
+MgmtEth0/RP0/CPU0/0 is up, line protocol is up 
+  Interface state transitions: 1
+  Hardware is Management Ethernet, address is 5000.0004.0000 (bia 5000.0004.0000)
+  Internet address is 192.168.122.14/24
+  MTU 1514 bytes, BW 0 Kbit
+     reliability 255/255, txload Unknown, rxload Unknown
+  Encapsulation ARPA,
+  Duplex unknown, 0Kb/s, CX, link type is autonegotiation
+  loopback not set,
+  Last link flapped 00:37:24
+  ARP type ARPA, ARP timeout 04:00:00
+  Last input 00:00:00, output 00:00:00
+  Last clearing of "show interface" counters never
+  5 minute input rate 0 bits/sec, 1 packets/sec
+  5 minute output rate 1000 bits/sec, 1 packets/sec
+     991 packets input, 104127 bytes, 0 total input drops
+     0 drops for unrecognized upper-level protocol
+     Received 0 broadcast packets, 0 multicast packets
+              0 runts, 0 giants, 0 throttles, 0 parity
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     732 packets output, 140783 bytes, 0 total output drops
+     Output 0 broadcast packets, 0 multicast packets
+     0 output errors, 0 underruns, 0 applique, 0 resets
+     0 output buffer failures, 0 output buffers swapped out
+     1 carrier transitions
+
+GigabitEthernet0/0/0/0 is administratively down, line protocol is administratively down 
+  Interface state transitions: 0
+  Hardware is GigabitEthernet, address is 5000.0004.0003 (bia 5000.0004.0003)
+  Internet address is Unknown
+  MTU 1514 bytes, BW 1000000 Kbit (Max: 1000000 Kbit)
+     reliability 255/255, txload 0/255, rxload 0/255
+  Encapsulation ARPA,
+  Duplex unknown, 1000Mb/s, link type is force-up
+  output flow control is off, input flow control is off
+  loopback not set,
+  Last input never, output never
+  Last clearing of "show interface" counters never
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 total input drops
+     0 drops for unrecognized upper-level protocol
+     Received 0 broadcast packets, 0 multicast packets
+              0 runts, 0 giants, 0 throttles, 0 parity
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 total output drops
+     Output 0 broadcast packets, 0 multicast packets
+     0 output errors, 0 underruns, 0 applique, 0 resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+
+GigabitEthernet0/0/0/1 is administratively down, line protocol is administratively down 
+  Interface state transitions: 0
+  Hardware is GigabitEthernet, address is 5000.0004.0004 (bia 5000.0004.0004)
+  Internet address is Unknown
+  MTU 1514 bytes, BW 1000000 Kbit (Max: 1000000 Kbit)
+     reliability 255/255, txload 0/255, rxload 0/255
+  Encapsulation ARPA,
+  Duplex unknown, 1000Mb/s, link type is force-up
+  output flow control is off, input flow control is off
+  loopback not set,
+  Last input never, output never
+  Last clearing of "show interface" counters never
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 total input drops
+     0 drops for unrecognized upper-level protocol
+     Received 0 broadcast packets, 0 multicast packets
+              0 runts, 0 giants, 0 throttles, 0 parity
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 total output drops
+     Output 0 broadcast packets, 0 multicast packets
+     0 output errors, 0 underruns, 0 applique, 0 resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+
+GigabitEthernet0/0/0/2 is administratively down, line protocol is administratively down 
+  Interface state transitions: 0
+  Hardware is GigabitEthernet, address is 5000.0004.0005 (bia 5000.0004.0005)
+  Internet address is Unknown
+  MTU 1514 bytes, BW 1000000 Kbit (Max: 1000000 Kbit)
+     reliability 255/255, txload 0/255, rxload 0/255
+  Encapsulation ARPA,
+  Duplex unknown, 1000Mb/s, link type is force-up
+  output flow control is off, input flow control is off
+  loopback not set,
+  Last input never, output never
+  Last clearing of "show interface" counters never
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 total input drops
+     0 drops for unrecognized upper-level protocol
+     Received 0 broadcast packets, 0 multicast packets
+              0 runts, 0 giants, 0 throttles, 0 parity
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 total output drops
+     Output 0 broadcast packets, 0 multicast packets
+     0 output errors, 0 underruns, 0 applique, 0 resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+
+GigabitEthernet0/0/0/3 is administratively down, line protocol is administratively down 
+  Interface state transitions: 0
+  Hardware is GigabitEthernet, address is 5000.0004.0006 (bia 5000.0004.0006)
+  Internet address is Unknown
+  MTU 1514 bytes, BW 1000000 Kbit (Max: 1000000 Kbit)
+     reliability 255/255, txload 0/255, rxload 0/255
+  Encapsulation ARPA,
+  Duplex unknown, 1000Mb/s, link type is force-up
+  output flow control is off, input flow control is off
+  loopback not set,
+  Last input never, output never
+  Last clearing of "show interface" counters never
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 total input drops
+     0 drops for unrecognized upper-level protocol
+     Received 0 broadcast packets, 0 multicast packets
+              0 runts, 0 giants, 0 throttles, 0 parity
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 total output drops
+     Output 0 broadcast packets, 0 multicast packets
+     0 output errors, 0 underruns, 0 applique, 0 resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+
+
+RP/0/RP0/CPU0:PE2#
++++ PE2 with via 'cli': executing command 'show ethernet tags' +++
+show ethernet tags
+Fri Apr  7 10:08:57.180 UTC
+St:    AD - Administratively Down, Dn - Down, Up - Up
+Ly:    L2 - Switched layer 2 service, L3 = Terminated layer 3 service,
+Xtra   C - Match on Cos, E  - Match on Ethertype, M - Match on source MAC
+-,+:   Ingress rewrite operation; number of tags to pop and push respectively
+
+Interface               St  MTU  Ly Outer            Inner            Xtra -,+
+RP/0/RP0/CPU0:PE2#
++++ PE2 with via 'cli': executing command 'show interfaces accounting' +++
+show interfaces accounting
+Fri Apr  7 10:08:57.545 UTC
+No accounting statistics available for Null0
+
+No accounting statistics available for GigabitEthernet0/0/0/0
+
+No accounting statistics available for GigabitEthernet0/0/0/1
+
+No accounting statistics available for GigabitEthernet0/0/0/2
+
+No accounting statistics available for GigabitEthernet0/0/0/3
+
+MgmtEth0/RP0/CPU0/0
+  Protocol              Pkts In         Chars In     Pkts Out        Chars Out
+  IPV4_UNICAST             1005           105055          742           139079
+  ARP                         1               42            2               84
+
+
+RP/0/RP0/CPU0:PE2#
++++ PE2 with via 'cli': executing command 'show ipv4 vrf all interface' +++
+show ipv4 vrf all interface
+Fri Apr  7 10:08:57.989 UTC
+MgmtEth0/RP0/CPU0/0 is Up, ipv4 protocol is Up 
+  Vrf is oam (vrfid 0x60000001)
+  Internet address is 192.168.122.14/24
+  MTU is 1514 (1500 is available to IP)
+  Helper address is not set
+  Directed broadcast forwarding is disabled
+  Outgoing access list is not set
+  Inbound  common access list is not set, access list is not set
+  Proxy ARP is disabled
+  ICMP redirects are never sent
+  ICMP unreachables are always sent
+  ICMP mask replies are never sent
+  Table Id is 0xe0000001
+GigabitEthernet0/0/0/0 is Shutdown, ipv4 protocol is Down 
+  Vrf is default (vrfid 0x60000000)
+  Internet protocol processing disabled
+GigabitEthernet0/0/0/1 is Shutdown, ipv4 protocol is Down 
+  Vrf is default (vrfid 0x60000000)
+  Internet protocol processing disabled
+GigabitEthernet0/0/0/2 is Shutdown, ipv4 protocol is Down 
+  Vrf is default (vrfid 0x60000000)
+  Internet protocol processing disabled
+GigabitEthernet0/0/0/3 is Shutdown, ipv4 protocol is Down 
+  Vrf is default (vrfid 0x60000000)
+  Internet protocol processing disabled
+RP/0/RP0/CPU0:PE2#
++++ PE2 with via 'cli': executing command 'show ipv6 vrf all interface' +++
+show ipv6 vrf all interface
+Fri Apr  7 10:08:58.389 UTC
+MgmtEth0/RP0/CPU0/0 is Up, ipv6 protocol is Up, Vrfid is oam (0x60000001)
+  IPv6 is disabled, link-local address unassigned
+  No global unicast address is configured
+GigabitEthernet0/0/0/0 is Shutdown, ipv6 protocol is Down, Vrfid is default (0x60000000)
+  IPv6 is disabled, link-local address unassigned
+  No global unicast address is configured
+GigabitEthernet0/0/0/1 is Shutdown, ipv6 protocol is Down, Vrfid is default (0x60000000)
+  IPv6 is disabled, link-local address unassigned
+  No global unicast address is configured
+GigabitEthernet0/0/0/2 is Shutdown, ipv6 protocol is Down, Vrfid is default (0x60000000)
+  IPv6 is disabled, link-local address unassigned
+  No global unicast address is configured
+GigabitEthernet0/0/0/3 is Shutdown, ipv6 protocol is Down, Vrfid is default (0x60000000)
+  IPv6 is disabled, link-local address unassigned
+  No global unicast address is configured
+RP/0/RP0/CPU0:PE2#
++====================================================================================================================================================+
+| Commands for learning feature 'Interface'                                                                                                          |
++====================================================================================================================================================+
+| - Parsed commands                                                                                                                                  |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.iosxr.show_vrf.ShowVrfAllDetail'>, arguments: {'vrf':''}                                                          |
+|   cmd: <class 'genie.libs.parser.iosxr.show_interface.ShowInterfacesDetail'>, arguments: {'interface':''}                                          |
+|   cmd: <class 'genie.libs.parser.iosxr.show_interface.ShowInterfacesAccounting'>, arguments: {'interface':''}                                      |
+|   cmd: <class 'genie.libs.parser.iosxr.show_interface.ShowIpv4VrfAllInterface'>, arguments: {'interface':'','vrf':''}                              |
+|   cmd: <class 'genie.libs.parser.iosxr.show_interface.ShowIpv6VrfAllInterface'>, arguments: {'interface':'','vrf':''}                              |
+|====================================================================================================================================================|
+| - Commands with empty output                                                                                                                       |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.iosxr.show_interface.ShowEthernetTags'>, arguments: {'interface':''}                                              |
+|====================================================================================================================================================|

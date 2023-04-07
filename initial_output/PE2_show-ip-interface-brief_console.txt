@@ -1,0 +1,11 @@
++++ PE2 with via 'cli': executing command 'show ip interface brief' +++
+show ip interface brief
+Fri Apr  7 09:35:46.934 UTC
+
+Interface                      IP-Address      Status          Protocol Vrf-Name
+MgmtEth0/RP0/CPU0/0            192.168.122.14  Up              Up       oam     
+GigabitEthernet0/0/0/0         unassigned      Shutdown        Down     default 
+GigabitEthernet0/0/0/1         unassigned      Shutdown        Down     default 
+GigabitEthernet0/0/0/2         unassigned      Shutdown        Down     default 
+GigabitEthernet0/0/0/3         unassigned      Shutdown        Down     default 
+RP/0/RP0/CPU0:PE2#

@@ -1,0 +1,28 @@
+testbed:
+  name: workshopTestbed
+
+devices:
+  PE1:
+    type: router
+    os: iosxe
+    credentials:
+      default:
+        username: cisco
+        password: cisco
+    connections:
+      cli:
+        protocol: ssh
+        ip: 192.168.122.11
+        port: 22 #not needed - its default
+        ssh_options: -oKexAlgorithms=+diffie-hellman-group14-sha1 -oHostkeyAlgorithms=+ssh-rsa
+  PE2:
+    type: router
+    os: iosxr
+    credentials:
+      default:
+        username: admin
+        password: admin123
+    connections:
+      cli:
+        protocol: ssh
+        ip: 192.168.122.14
