@@ -1,5 +1,9 @@
 ## PyATS Parse Examples
 
+`parse` uses Genie. Parsers are typically written using `genie.metaparser` module
+
+https://pubhub.devnetcloud.com/media/pyats-getting-started/docs/quickstart/parseoutput.html
+
 ```
 pyats parse "show version" --testbed-file testbed.yaml --device PE1 --output initial_output
 

@@ -13,6 +13,10 @@ pe2.connect(log_stdout=False)
 # Step 3: Get data and parse - in one step
 show_interface = pe2.parse('show ip interface brief')
 
+# Uncomment below lines to see CLI output also
+show_interface_text = pe2.execute('show ip interface brief')
+print(show_interface_text)
+
 # Step 4: printing the `show ip interface brief` output
 pprint(show_interface)
 
