@@ -26,14 +26,14 @@ devices:
       cli:
         protocol: ssh
         ip: 192.168.122.14
-  PE3: # Not Reachable. Added intentionally
-    type: router
-    os: iosxr
-    credentials:
-      default:
-        username: admin
-        password: admin123
-    connections:
-      cli:
-        protocol: ssh
-        ip: 10.10.10.1
+  # PE3: # Not Reachable. Added intentionally
+  #   type: router
+  #   os: iosxr
+  #   credentials:
+  #     default:
+  #       username: admin
+  #       password: admin123
+  #   connections:
+  #     cli:
+  #       protocol: ssh
+  #       ip: 10.10.10.1

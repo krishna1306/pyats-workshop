@@ -1,1 +1,5 @@
 venv/
+__pycache__/
+initial_output/
+output_folder/
+interfaces/
