@@ -10,6 +10,9 @@ Make sure you refer to the documentation for this version
 AEtest documentation is also present in the same link
 https://pubhub.devnetcloud.com/media/pyats/docs/overview/index.html
 
+A more beginner-friendly documentation is here
+https://pubhub.devnetcloud.com/media/pyats-getting-started/docs/index.html
+
 ## PyATS Parse Examples
 
 `parse` uses Genie. Parsers are typically written using `genie.metaparser` module
